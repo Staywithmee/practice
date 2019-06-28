@@ -8,7 +8,6 @@ array=["beijing","shanghai","xian","nanjing","zhengzhou"]
   #      "https://movie.douban.com/cinema/nowplaying/nanjing/",
         #"https://movie.douban.com/cinema/nowplaying/xian/",
         #"https://movie.douban.com/cinema/nowplaying/shanghai/"]
-i=0
 for j in range(0,len(array)):
     response=urllib.request.urlopen('https://movie.douban.com/cinema/nowplaying/'+array[j]+'/')
     #response=urllib.request.urlopen(j)
